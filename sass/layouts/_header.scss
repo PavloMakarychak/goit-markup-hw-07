@@ -1,0 +1,124 @@
+
+.header{
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color:#ECECEC;
+ }
+ 
+ .main-nav{
+     display: flex;
+     align-items: center;
+ }
+ 
+ .logo,
+ .header-logo{
+     padding-top: 24px;
+     padding-bottom: 25px;
+ }
+ .logo{
+     font-family: 'Raleway';
+     font-size: 26px;
+     line-height: 1.19;
+     color:var(--accent-color);
+ }
+ .header-logo{
+     color:var(--logo-color);
+ }
+ .logo:hover,
+ .logo:focus{
+     color:var(--accent-color);   
+ }
+ 
+ .site-nav{
+     font-weight: 500;
+     display: flex;
+     margin-left: 93px;
+ }
+ 
+ .activ,
+ .activ-portfolio,
+ .nav,
+ .mailto,
+ .tel{
+     display: block;
+     padding-top: 32px;
+     padding-bottom: 32px;
+ }    
+ 
+ .site-nav .item:not(:last-child){
+     margin-right: 50px;
+ }
+ 
+ .activ.link { 
+     text-decoration: none;
+     font-size: 14px;
+     line-height: 1.14;
+     letter-spacing: 0.02em;
+     color: var(--accent-color);
+     background-color: var(--primary-bg-color);
+ }
+ 
+ .header-nav .link{
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 1.14;
+     letter-spacing: 0.02em;
+ }
+ .activ,
+ .activ-portfolio{
+     position: relative;
+     color:var(--accent-color);
+ }
+ 
+ .activ.link::after,
+ .activ-portfolio::after {
+     content: "";
+     position: absolute;
+     left: 0;
+     bottom: -2px;
+     width: 100%;
+     height: 4px;
+     background:var(--accent-color);
+     border-radius: 2px;
+ }
+ 
+ .auth-nav{
+     display: flex;
+     margin-left: auto;
+     font-weight: 500;
+ }
+ .auth-nav .item:not(:last-child){
+     margin-right: 40px;
+ }
+ 
+ .item{
+     display: flex;
+     align-items: center;
+ }
+ 
+ .mailto:hover,
+ .tel:hover,
+ .mailto:focus
+ .tel:focus{
+     fill: var(--accent-color);
+ }
+ 
+ .auth-nav-icons.mail,
+ .auth-nav-icons.tell{
+     fill: currentColor;
+ }
+ 
+ .auth-nav-icons.mail,
+ .auth-nav-icons.tell{ 
+     margin-right: 10px;
+ }
+ 
+ .mailto,
+ .tel {
+     display: flex;
+     align-items: center;
+     font-weight: 500;
+     line-height: 1.14;
+     letter-spacing: 0.02em;
+     color:var(--primary-text-color);
+ }
