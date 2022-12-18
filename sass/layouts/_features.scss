@@ -1,10 +1,10 @@
-.features-list.list {
+.features__list {
     display: flex;
 }
-.item-icon:not(:last-child){
+.features__item:not(:last-child){
     margin-right: 30px;
 }
-.features-item{
+.features__box{
     display: flex;
     contain: "";
     margin-bottom: 30px;
@@ -16,7 +16,7 @@
     border-radius: 4px;
 }
 
-.features-title{
+.features__title{
     margin-top: 0px;
     margin-bottom: 10px;
     font-weight: 700;
@@ -25,7 +25,7 @@
     text-transform: uppercase;
     color: var(--title-text-color);
 }
-.features-text{
+.features__text{
     margin-top: 0px;
     margin-bottom: 0px;
     line-height: 1.71;
