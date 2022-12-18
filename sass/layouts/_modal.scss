@@ -148,9 +148,7 @@ margin-bottom: 4px;
  
 
 .check-group{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-align-justify;
     width: 16px;
     height: 15px;
     margin-right: 8px;
@@ -180,11 +178,9 @@ fill: var(--primary-bg-color);
 }
 
 .group-label{
-    display: flex;
+    @include flex-align-justify;
     margin-top: 0px;
     margin-bottom: 30px;
-    justify-content: center;
-    align-items: center;
     font-size: 14px;
     line-height: 1.71;
     color: #757575;
@@ -216,7 +212,5 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 }
 .btn-form-box{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flex-align-justify;
 }

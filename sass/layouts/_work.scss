@@ -39,10 +39,7 @@
     overflow: hidden;
 }
 .work__label{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+    @include flex-align-justify;
     width: 370px;
     height: 70px; ;
     position: absolute;

@@ -1,7 +1,10 @@
 
 @import "./base/reset";
-@import "./utils/variables";
 @import "./base/common.scss";
+
+@import "./utils/variables";
+@import "./utils/placeholder";
+
 
 @import "./components/container.scss";
 @import "./components/logo";
@@ -23,13 +26,10 @@
 
 @import "./layouts/filter";
 
-@import "./layouts/portfolio";
-
 @import "./layouts/modal";
 
 @import "./layouts/filter";
 
-@import "./layouts/projects";
 
 
 

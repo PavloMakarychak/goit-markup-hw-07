@@ -64,9 +64,7 @@ color:var(--primary-text-color);
     height:auto;
 }
 .team__soc-list{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-align-justify; 
 }
 .team__soc-items{
     width: 44px;
@@ -81,9 +79,7 @@ color:var(--primary-text-color);
 .team__soc-link{
     width: 100%;
     height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-align-justify;
     fill:  #AFB1B8; 
     border-radius:50% ; 
     &:hover,

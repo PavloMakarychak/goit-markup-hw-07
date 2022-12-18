@@ -5,13 +5,12 @@
     margin-right: 30px;
 }
 .features__box{
-    display: flex;
+    @include flex-align-justify;
     contain: "";
     margin-bottom: 30px;
     width: 270px;
     height: 120px;
-    justify-content: center;
-    align-items: center;
+    
     background: #F5F4FA;
     border-radius: 4px;
 }
